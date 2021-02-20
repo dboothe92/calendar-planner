@@ -1,4 +1,7 @@
+let  todaysDate = (dayjs().format("dddd MM/DD/YYYY, hh:mm A"));
 let hours = ["9am", "10am", "11am", "12pm", "1pm", "2pm", "3pm", "4pm", "5pm"];
+
+$("#currentDay").text(todaysDate);
 
 //Creates eachhour block
     $(".container").append("<div class = 'row'></div>")
